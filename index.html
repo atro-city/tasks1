@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Tasks 1</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/template-style.css">                                   <!-- Template style -->
+
+</head>
+    <body>        
+        <div class="container">
+                        <div class="tm-content-div">
+
+                            <section id="ex1" class="tm-section">
+                                <header>
+                                    <h2 class="tm-blue-text tm-section-title ">Ex. 1: Reversing the string</h2>
+                                </header>
+                                <input type="text" id="input1" class="form-control" placeholder="Text"/>
+                                <span class="spanM" id="output1">Answer</span>
+                            </section>
+
+                            <section id="ex2" class="tm-section">
+                                <header>
+                                    <h2 class="tm-blue-text tm-section-title">Ex. 2: Recursive string reversing</h2>
+                                </header>
+                                <input type="text" id="input2" class="form-control" placeholder="Text"/>
+                                <span class="spanM" id="output2">Answer</span>
+                            </section>
+
+                            <section id="ex3" class="tm-section">
+                                <header>
+                                    <h2 class="tm-blue-text tm-section-title">Ex. 3: Palindrom (or not?)</h2>
+                                </header>
+                                <input type="text" id="input3" class="form-control" placeholder="Text"/>
+                                <span class="spanM" id="output3">Answer</span>
+                            </section>
+
+                            <section id="ex4" class="tm-section">
+                                <header>
+                                    <h2 class="tm-blue-text tm-section-title">Ex. 4: Max. element position in an array</h2>
+                                </header>
+                                <input type="text" id="input4" class="form-control" placeholder="1,2,3 (numbers separated by commas)"/>
+                                <button type="submit" id="button1" class="tm-button3">Run</button>
+                                <span class="spanM" id="output4">Answer</span>       
+                            </section>
+                            
+                            <section id="ex5" class="tm-section">
+                                <header>
+                                    <h2 class="tm-blue-text tm-section-title">Ex. 5: Operations on complex numbers</h2>
+                                </header>
+
+   
+                        <span class="spanM" style="margin-right: 20px;">Enter complex numbers: </span>
+               
+                        <input type="tel" name="num1_n" id="num1_n" maxlength="8" style="width: 70px;">
+                        <span class="spanM">+</span>
+                        <input type="tel" name="num1_i" id="num1_i" maxlength="8" style="width: 70px;">
+                        <span class="spanM">i</span>
+                        <select name="op" id="op" style="margin-left: 12px; margin-right: 12px;">
+                            <option value="+"><span class="spanM"> + </span></option>
+                            <option value="-"><span class="spanM"> - </span></option>
+                            <option value="*"><span class="spanM"> * </span></option>
+                            <option value="/"><span class="spanM"> / </span></option>
+                        </select>
+                        <input type="tel" name="num2_n" id="num2_n" maxlength="8" style="width: 70px;">
+                        <span class="spanM">+</span>
+                        <input type="tel" name="num2_i" id="num2_i" maxlength="8" style="width: 70px;">
+                        <span class="spanM">i</span>              
+                        <button type="submit" id="button2" class="tm-button2">Calculate</button>
+                        <span class="spanM" id="output5">Answer</span>
+                            </section>
+
+                            <section id="ex6" class="tm-section">
+                                <header>
+                                    <h2 class="tm-blue-text tm-section-title tm-margin-b-30">Ex. 6: Multiplication table</h2>
+                                </header>
+                                <button type="submit" id="button3" class="tm-button">Run</button>
+                                <span class="spanM" id="output7"></span>
+                            </section>
+
+                            <section id="ex7" class="tm-section">
+                                <header>
+                                    <h2 class="tm-blue-text tm-section-title tm-margin-b-30">Ex. 7: Number of letters between the first and the last in a string</h2>
+                                </header>
+                                <input type="text" id="input5" class="form-control" placeholder="Text"/>
+                                <span class="spanM" id="output6">Answer</span>
+                            </section>
+
+                            <section id="ex8" class="tm-section">
+                                <header>
+                                    <h2 class="tm-blue-text tm-section-title tm-margin-b-30">Ex. 8: Maximum non-descending sequence</h2>
+                                </header>
+                               
+                                        <input type="text" id="input7" class="form-control" placeholder="1,2,3 (Items separated by commas)"/>
+                                        <button type="submit" id="button5" class="tm-button3">Run</button>
+                                        <span class="spanM" id="output9">Answer</span>
+                            </section>
+
+                            <section id="ex9" class="tm-section">
+                                <header>
+                                    <h2 class="tm-blue-text tm-section-title tm-margin-b-30">Ex. 9: Is arithm. avg. of number array > amount of numbers?</h2>
+                                </header>
+                               
+                                        <input type="text" id="input6" class="form-control" placeholder="1,2,3 (Items separated by commas)"/>
+                                        <button type="submit" id="button4" class="tm-button3">Run</button>
+                                        <span class="spanM" id="output8">Answer</span>
+                            </section>
+
+                            <section id="ex10" class="tm-section">
+                                <header>
+                                    <h2 class="tm-blue-text tm-section-title tm-margin-b-30">Ex. 10: Simple number detector (can't count past 100)</h2>
+                                </header>
+                               
+                                        <input type="text" id="input8" class="form-control" placeholder="Integer number"/>
+                                        <span class="spanM" id="output10">Answer</span>
+                            </section>
+
+                            <section id="ex11" class="tm-section">
+                                <header>
+                                    <h2 class="tm-blue-text tm-section-title tm-margin-b-30">Ex. 11: Passing a function as an argument for a function?!</h2>
+								</header>
+									<input type="tel" name="num3_n" id="num3_a" maxlength="8" style="width: 70px;">
+									<span class="spanM">+</span>
+									<input type="tel" name="num3_i" id="num3_b" maxlength="8" style="width: 70px;">
+									<button type="submit" id="button6" class="tm-button3">Run</button>
+                                    <span class="spanM" id="output11">Answer</span>
+                                
+                               
+                                        
+                            </section>
+
+                           
+                        </div>  
+                        
+                    
+            
+        </div> <!-- container -->
+        <script src="scripts/Scripts.js"></script>    
+        <!-- load JS files -->          
+</body>
+</html>
